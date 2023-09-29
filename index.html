@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SE 3316 Lab 1</title>
+<meta name="description" content="">
+<meta name="author" content="Aahash">
+<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<div id="search-container">
+<input  type="text" id="searchbarCT" placeholder="Search Countries..." > 
+<ul id="results"></ul>
+<button id="myButton">Search</button>
+<ul id="inbetweenspace"></ul>
+
+
+<input  type="text" id="searchbarCTCC" placeholder="Search Currencies..." >
+<ul id="resultsCC"></ul>
+<button id="myButtonCC">Enter</button>
+
+</div>
+
+
+
+
+
+<ul>
+    <div id ="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Albania">Albania</a></h1><img src="images/Albania.png">
+        <h2>Regions:<br>        
+          Anguilla<br>
+          Berat<br>
+          Diber<br>
+          Durres<br>
+          Elbasan<br>
+          Fier<br>
+          Gjirokaster<br>
+          Korce<br>
+          Kukes<br>
+          Lezhe<br>
+          Shkoder<br>
+          Tirane<br>
+          Vlore<br><br><br><br><br><br>
+          </h2>
+        <h2>Country Currency:<br>Lek/ALL</h2>
+        
+    </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a></h1> <img src="images/Brazil.png">
+        <h2>Regions:<br>
+          Acre, Alagoas<br>
+          Amapa, Amazonas<br>
+          Bahia, Ceara<br>
+          Distrito Federal<br>
+          Espirito Santo<br>
+          Goias, Maranhao<br>
+          Mato Grosso<br>
+          Mato Grosso do Sul<br>
+          Minas Gerais<br>
+          Para, Paraiba<br>
+          Parana, Pernambuco<br>
+          Piaui, Rio Grande do Norte<br>
+          Rio Grande do Sul<br>
+          Rio de Janeiro<br>
+          Rondonia, Roraima<br>
+          Santa Catarina<br>
+          Sao Paulo, Sergipe<br>
+          Tocantins
+          </h2>
+        <h2>Country Currency:<br>Brazil/BRL</h2>
+        </div>
+
+
+
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Canada">Canada</a></h1> <img src="images/Canada.png">
+        <h2>Regions:<br>
+          Alberta<br>
+          British Columbia<br>
+          Manitoba<br>
+          New Brunswick<br>
+          Newfoundland and Labrador<br>
+          Northwest Territories<br>
+          Nova Scotia<br>
+          Nunavut<br>
+          Ontario<br>
+          Prince Edward Island<br>
+          Quebec<br>
+          Saskatchewan<br>
+          Yukon<br>
+          <br><br><br><br><br>
+          </h2>
+        <h2>Country Currency:<br>Canada/CAD</h2>
+     
+        </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Denmark">Denmark</a></h1> <img src="images/Denmark.png">
+        <h2>Regions:<br>
+          Hovedstaden<br>
+          Midtjylland<br>
+          Nordjylland<br>
+          Sjaelland<br>
+          Syddanmark<br><br>
+          <br><br><br><br><br><br><br><br><br><br><br><br>
+          </h2>
+        <h2>Country Currency:<br>Danish Krone/DKK</h2>
+        </div>
+        <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Finland">Finland</a></h1><img src="images/Finland.png">
+        <h2>Regions:<br>
+          Etela-Karjala<br>
+          Etela-Pohjanmaa<br>
+          Etela-Savo<br>
+          Kainuu<br>
+          Kanta-Hame<br>
+          Keski-Pohjanmaa<br>
+          Keski-Suomi<br>
+          Kymenlaakso<br>
+          Lappi<br>
+          Paijat-Hame<br>
+          Pirkanmaa<br>
+          Pohjanmaa<br>
+          Pohjois-Karjala<br>
+          Pohjois-Pohjanmaa<br>
+          Pohjois-Savo<br>
+          Satakunta<br>
+          Uusimaa<br>
+          Varsinais-Suomi<br><br><br>
+        
+          </h2>
+        <h2>Country Currency:<br>Euros/EUR</h2>
+        </div>   
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Germany">Germany</a></h1><img src="images/Germany.png">
+        <h2>Regions:<br>
+          Baden-Wurttemberg<br>
+          Bayern<br>
+          Berlin<br>
+          Brandenburg<br>
+          Bremen<br>
+          Hamburg<br>
+          Hessen<br>
+          Mecklenburg-Vorpommern<br>
+          Niedersachsen<br>
+          Nordrhein-Westfalen<br>
+          Rheinland-Pfalz<br>
+          Saarland<br>
+          Sachsen<br>
+          Sachsen-Anhalt<br>
+          Schleswig-Holstein<br>
+          Thuringen<br><br><br><br><br>
+          </h2>
+        <h2>Country Currency:<br>Euros/EUR</h2> 
+      </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/India">India</a></h1><img src="images/India.webp">
+        <h2>Regions: <br>
+          Andaman and Nicobar Islands<br>
+          Andhra Pradesh<br>
+          Arunachal Pradesh<br>
+          Assam, Bihar, Chhattisgarh<br>
+          Dadra and Nagar Haveli<br>
+          Dadra and Nagar Haveli<br>
+          Daman and Diu<br>
+          Delhi, Goa, Gujarat<br>
+          Haryana, Himachal Pradesh<br>
+          Jammu and Kashmir, Jharkhand<br>
+          Karnataka, Kerala<br>
+          Lakshadweep, Madhya Pradesh<br>
+          Maharashtra, Manipur<br>
+          Meghalaya, Mizoram<br>
+          Nagaland, Odisha<br>
+          Puducherry, Punjab<br>
+          Rajasthan, Sikkim<br>
+          Tamil Nadu, Telangana<br>
+          Tripura, Uttar Pradesh<br>
+          Uttarakhand, West Bengal<br>
+          </h2>
+        <h2>Country Currency:<br>Indian Rupee/INR</h2>
+        </div>  
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Ireland">Ireland</a></h1><img src="images/Ireland.webp">
+        <h2>Regions:<br>
+          Carlow, Cavan<br>
+          Clare, Cork<br>
+          Donegal, Dublin<br>
+          Galway, Kerry<br>
+          Kildare, Kilkenny<br>
+          Laois, Leitrim<br>
+          Limerick, Longford<br>
+          Louth, Mayo<br>
+          Meath, Monaghan<br>
+          Offaly, Roscommon<br>
+          Sligo, Tipperary<br>
+          Waterford, Westmeath<br>
+          Wexford, Wicklow<br><br><br><br><br><br><br><br>
+          </h2>
+          <h2>Country Currency:<br>Euros/EUR</h2>
+        </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Madagascar">Madagascar</a></h1><img src="images/Madagascar.png">
+        <h2>Regions:<br>
+          Antananarivo<br>
+          Antsiranana<br>
+          Fianarantsoa<br>
+          Mahajanga<br>
+          Toamasina<br>
+          Toliara<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </h2>
+          <h2>Country Currency:<br>Malagasy Franc/MGA</h2>
+        </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Nigeria">Nigeria</a></h1><img src="images/Nigeria.webp">
+        <h2>Regions:<br>
+          Abuja Federal Capital Territory<br>
+          Adamawa, Akwa Ibom<br>
+          Anambra, Bauchi<br>
+          Bayelsa, Benue<br>
+          Borno, Cross River<br>
+          Delta, Ebonyi<br>
+          Edo, Ekiti<br>
+          Enugu, Gombe<br>
+          Imo, Jigawa<br>
+          Kaduna, Kano<br>
+          Katsina, Kebbi<br>
+          Kogi, Kwara<br>
+          Lagos, Nasarawa<br>
+          Niger, Ogun<br>
+          Ondo, Osun<br>
+          Oyo, Plateau<br>
+          Rivers, Sokoto<br>
+          Taraba, Yobe<br>
+          Zamfara
+          
+          </h2>
+          <h2>Country Currency:<br>Naira/NGN</h2>
+        </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Portugal">Portugal</a></h1><img src="images/Portugal.webp">
+        <h2>Regions:<br>
+          Aveiro, Beja<br>
+          Braga, Braganca<br>
+          Castelo Branco<br>
+          Coimbra, Evora<br>
+          Faro, Guarda<br>
+          Leiria, Lisboa<br>
+          Portalegre, Porto<br>
+          Regiao Autonoma da Madeira<br>
+          Regiao Autonoma dos Acores<br>
+          Santarem, Setubal<br>
+          Viana do Castelo<br>
+          Vila Real, Viseu<br><br><br><br><br><br><br><br>
+          
+          </h2>
+          <h2>Country Currency:<br>Euros/EUR</h2>
+        </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Russia">Russia</a></h1><img src="images/Russia.webp">
+        <h2>Regions:<br>
+            Central Federal District<br>
+            Southern Federal District<br>
+            Northwestern Federal District<br>
+            Far Eastern Federal District<br>
+            Siberian Federal District<br>
+            Urals Federal District<br>
+            Volga Federal District<br>
+            North Caucasian Federal District<br><br><br><br><br><br><br><br><br><br><br><br>
+          </h2>
+          <h2>Country Currency:<br>Ruble/RUB</h2>
+        </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Spain">Spain</a></h1><img src="images/Spain.png">
+        <h2>Regions:<br>
+          Andalucia<br>
+          Aragon<br>
+          Asturias, Principado de<br>
+          Canarias<br>
+          Cantabria<br>
+          Castilla y Leon<br>
+          Castilla-La Mancha<br>
+          Catalunya<br>
+          Ceuta<br>
+          Extremadura<br>
+          Galicia<br>
+          Illes Balears<br>
+          La Rioja<br>
+          Madrid, Comunidad de<br>
+          Melilla<br>
+          Murcia, Region de<br>
+          Navarra, Comunidad Foral de<br>
+          Pais Vasco<br>
+          Valenciana, Comunidad<br>
+          </h2>
+          <h2>Country Currency:<br>Euros/EUR</h2>
+        </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Sri Lanka">Sri Lanka</a></h1><img src="images/Sri Lanka.webp">
+        <h2>Regions:<br>
+            Central Province<br>
+            Eastern Province<br>
+            North Central Province<br>
+            Northern Province<br>
+            North Western Province<br>
+            Sabaragamuwa Province<br>
+            Southern Province<br>
+            Uva Province<br>
+            Western Province<br><br><br><br><br><br><br><br><br><br><br>
+          </h2> 
+          <h2>Country Currency:<br>Rupee/LKR</h2>
+        </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Thailand">Thailand</a></h1><img src="images/Thailand.webp">
+        <h2>Regions:<br>
+            Northern Region<br>
+            Northeastern Region<br>
+            Central Region<br>
+            Eastern Region<br>
+            Eastern Seaboard<br>
+            Western Region<br>
+            Western Seaboard<br>
+            Southern Region<br>
+            Bangkok Metropolitan Region<br><br><br><br><br><br><br><br><br><br><br>
+          </h2>
+          <h2>Country Currency:<br>Baht/THB</h2>
+        </div>
+        <div id="Flag">
+          <h1><a href="https://en.wikipedia.org/wiki/United Kingdom">United Kingdom</a></h1><img src="images/United Kingdom.png">
+          <h2>Regions:<br>
+              England<br> 
+             Scotland<br>
+              Wales<br>
+              Northern Ireland<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </h2>
+            <h2>Country Currency:<br>Sterling/GBP</h2>
+      </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Uruguay">Uruguay</a></h1><img src="images/Uruguay.png">
+        <h2>Regions:<br>
+          Andijon<br>
+          Buxoro<br>
+          Farg'ona<br>
+          Jizzax<br>
+          Namangan<br>
+          Navoiy<br>
+          Qashqadaryo<br>
+          Qoraqalpog'iston Respublikasi<br>
+          Samarqand<br>
+          Sirdaryo<br>
+          Surxondaryo<br>
+          Toshkent<br>
+          Xorazm<br><br><br><br><br><br><br><br><br><br><br>
+
+            </h2>
+            <h2>Country Currency:<br>Peso/UYU</h2>
+    </div>
+    <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Venezuala">Venezuela</a></h1><img src="images/Venezuala.png">
+        <h2>Regions:<br>
+            
+Anzoategui<br>
+Apure<br>
+Aragua<br>
+Barinas<br>
+Bolivar<br>
+Carabobo<br>
+Cojedes<br>
+Delta Amacuro<br>
+Distrito Capital<br>
+Falcon<br>
+Guarico<br>
+La Guaira<br>
+Lara<br>
+Merida<br>
+Miranda<br>
+Monagas<br>
+Nueva Esparta<br>
+Portuguesa<br>
+Sucre<br>
+Tachira<br>
+Trujillo<br>
+Yaracuy<br>
+Zulia<br>
+
+            </h2>
+            <h2>Country Currency:<br>Bolivar/VEF</h2>
+    </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Yemen">Yemen</a></h1><img src="images/Yemen.png">
+        <h2>Regions:<br>
+          'Adan<br>
+          'Amran<br>
+          Abyan<br>
+          Ad Dali'<br>
+          Al Bayda'<br>
+          Al Hudaydah<br>
+          Amanat al 'Asimah<br>
+          Dhamar<br>
+          Hadramawt<br>
+          Hajjah<br>
+          Ibb<br>
+          Lahij<br>
+          Ma'rib<br>
+          Sa'dah<br>
+          San'a'<br>
+          Shabwah<br><br><br><br><br><br><br><br>
+          </h2>
+        <h2>Country Currency:<br>Rial/YER</h2>
+    </div>
+     <div id="Flag">
+        <h1><a href="https://en.wikipedia.org/wiki/Zimbabwe">Zimbabwe</a></h1><img src="images/Zimbabwe.png">
+        <h2>Regions:<br>
+            Bulawayo<br>
+            Harare<br>
+            Manicaland<br>
+            Mashonaland Central<br>
+            Mashonaland East<br>
+            Mashonaland West<br>
+            Masvingo<br>
+            Matabeleland North<br>
+            Matabeleland South<br>
+            Midlands<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </h2>
+          <h2>Country Currency:<br>Zimbabwe Dollar/ZWD</h2> 
+        </div>
+</ul>
+<!-- Embedded JavaScript go here -->
+<script src ="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#search-container {
+    display: flex;
+    align-items: center;    
+    margin: 20px;
+}
+#searchbarCT{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+#searchbarCTCC{
+    padding: 10px;
+border-radius: 50px;
+flex-grow: 1;
+height: 30px;
+width: 30px;
+font-size: 14px;
+justify-content: space-between;
+}
+
+
+
+
+h1{
+    border: 500px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex: 0 0 25%;
+  
+    
+}
+h2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16.5px;
+    border-style: solid;
+    border-spacing: 1ch;
+    border-radius: 30px;
+    margin-top: 10px;
+    
+}
+
+p{
+
+   border: 5px;
+    float:right; 
+   margin: 100px;
+   
+}
+#Flag{
+    justify-content: space-between;
+    border: 100px;
+    float:left; 
+    margin-right: 100px;
+
+
+}
+   
+
+img{
+    float: left;
+    overflow: hidden;
+    width: 250px;
+    height: 200px;
+    border-style: solid;
+    
+    
+}
+
+
+#myButton{
+    flex-grow: 1;
+    justify-content: space-around;
+height: 30px;
+width: 30px;
+margin-left: 10px;
+}
+#myButtonCC{
+    flex-grow: 1;
+height: 30px;
+width: 30px;
+margin-left: 10px;
+justify-content: space-around;
+    }
+
